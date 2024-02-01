@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.banner{
+    background-image: url(images/pexels-cottonbro-studio-5185059.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    text-align: center;
+    background-size: cover;
+
+}
+.banner_content{
+    padding-top: 120px;
+
+}
+.donat_now{
+    margin: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color:red;
+    color: white;
+    font-weight: 700;
+    font-style: italic  ;
+
+}
+.donat_now:hover{
+    background-color: white;
+    color:black;
+}
+.section_two_content{
+text-align: center;
+margin-top: 5%;
+
+}
+.donate_amount{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.amount{
+    background-color:aqua;
+    padding: 15px;
+    margin-right: 10px;
+    color:red;
+    border: 2px chartreuse solid;
+    cursor: pointer;
+
+}
+.active{
+    background-color: darkorchid;
+    color:white;
+    cursor: pointer;
+}
+#input-amount{
+    width: 40%;
+    height: 25px;
+    border:navy;
+    border-bottom: 2px red solid;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+.final-section{
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.plan-strategy{
+    display: flex;
+    justify-content: center;
+
+}
+.plan{
+    margin: 10px;
+    padding: 10px;
+    border: 2px rebeccapurple solid;
+    background-color:azure;
+    height: 280px;
+    width: 350px;
+
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
